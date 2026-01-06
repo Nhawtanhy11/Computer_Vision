@@ -1,9 +1,9 @@
 # Computer_Vision
-##Landmark Recognition System
+## Landmark Recognition System
 
 This repository implements a Landmark Recognition System for instance-level image recognition. The project is inspired by the Google Landmark Recognition Competition (Kaggle) and focuses on handling real-world challenges such as variations in lighting, camera angles, occlusions, and image quality.
 
-##Project Overview
+## Project Overview
 
 The goal of this project is to build a system capable of accurately identifying and classifying landmarks from query images. The task requires distinguishing between 100,000+ global landmarks while managing significant intra-class variability, where images of the same landmark may include outdoor views, indoor scenes, or artistic depictions.
 
@@ -39,7 +39,7 @@ Slight prevalence of warmer color hues
 
 High concentration of blurry images (low Laplacian variance)
 
-🛠️ Data Preprocessing
+## Data Preprocessing
 
 To improve model generalization, two data augmentation pipelines were implemented:
 
